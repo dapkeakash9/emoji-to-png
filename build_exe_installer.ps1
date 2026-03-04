@@ -23,7 +23,7 @@ if (-not (Test-Path "dist")) { New-Item -ItemType Directory "dist" | Out-Null }
 
 Write-Host "Compiling Executable with csc.exe..."
 $csc = "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe"
-& $csc /nologo /target:winexe /out:dist\EmojiToPNG_Installer.exe /reference:System.IO.Compression.FileSystem.dll /reference:System.Windows.Forms.dll Installer_temp.cs
+& $csc /nologo /target:winexe /out:dist\EmojiToPNG_Installer.exe /win32icon:Emoji2png.ico /reference:System.IO.Compression.FileSystem.dll /reference:System.Windows.Forms.dll Installer_temp.cs
 
 Remove-Item "Installer_temp.cs"
 
