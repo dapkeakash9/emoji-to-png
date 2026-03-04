@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji to PNG</title>
+    <!-- Main Style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="panel-container">
+
+        <!-- Header: Platform Selector + Search -->
+        <header class="panel-header">
+            <select id="platform-dropdown" class="adobe-select">
+                <option value="apple" selected>Apple</option>
+                <option value="google">Google</option>
+                <option value="twitter">Twitter</option>
+                <option value="facebook">Facebook</option>
+            </select>
+            <input type="text" id="search-input" class="adobe-input" placeholder="Search emoji..." />
+        </header>
+
+        <!-- Category Tabs -->
+        <div class="category-tabs" id="category-tabs"></div>
+
+        <!-- Main: Emoji Grid -->
+        <main class="panel-content">
+            <div id="emoji-grid" class="emoji-grid"></div>
+        </main>
+
+        <!-- Footer: Action Bar -->
+        <footer class="panel-footer">
+            <div class="preview-mini" id="emoji-preview">
+                <span id="preview-emoji">👇</span>
+            </div>
+            <button id="download-btn" class="adobe-button">
+                <span id="download-text">Add point_down</span>
+            </button>
+        </footer>
+
+        <!-- Credit -->
+        <div class="credit-bar">Built with ❤️ by dapkeakash9</div>
+
+    </div>
+
+    <!-- Adobe CEP Interface -->
+    <script src="CSInterface.js"></script>
+
+    <!-- Emoji Data (self-contained) -->
+    <script src="emoji-data.js"></script>
+
+    <!-- Application Logic -->
+    <script src="app.js"></script>
+</body>
+
+</html>

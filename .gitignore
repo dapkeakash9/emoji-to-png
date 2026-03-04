@@ -1,0 +1,15 @@
+# Sensitive files
+.rnd
+tools/cert.p12
+
+# Build artifacts
+_build/
+dist/
+
+# IDE / Editor
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
