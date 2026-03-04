@@ -22,10 +22,10 @@ A free Adobe CEP extension that lets you instantly add **high‑quality emoji PN
 
 ### Windows (Automated)
 
-1. Download the single **`EmojiToPNG_Installer.bat`** file from the [Releases](https://github.com/dapkeakash9/emoji-to-png/releases) page.
-2. Double-click the file to run the installer.
+1. Download the single **`EmojiToPNG_Installer.exe`** file from the [Releases](https://github.com/dapkeakash9/emoji-to-png/releases) page.
+2. Double-click the file to run the setup.
 3. Windows will ask for Administrator permission (click Yes).
-4. The script will automatically unpack and install the extension system-wide.
+4. The installer will automatically unpack and install the extension system-wide.
 5. Restart Premiere Pro / After Effects and go to **Window → Extensions → Emoji to PNG**.
 
 ### macOS (Manual)
