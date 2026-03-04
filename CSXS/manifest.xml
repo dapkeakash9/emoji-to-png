@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExtensionManifest Version="7.0" ExtensionBundleId="com.dapkeakash9.emojitopng" ExtensionBundleVersion="1.0.0"
+<ExtensionManifest Version="7.0" ExtensionBundleId="com.antigravity.emojitopng" ExtensionBundleVersion="1.0.0"
     ExtensionBundleName="Emoji to PNG" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ExtensionList>
-        <Extension Id="com.dapkeakash9.emojitopng" Version="1.0" />
+        <Extension Id="com.antigravity.emojitopng" Version="1.0" />
     </ExtensionList>
     <ExecutionEnvironment>
         <HostList>
@@ -18,7 +18,7 @@
         </RequiredRuntimeList>
     </ExecutionEnvironment>
     <DispatchInfoList>
-        <Extension Id="com.dapkeakash9.emojitopng">
+        <Extension Id="com.antigravity.emojitopng">
             <DispatchInfo>
                 <Resources>
                     <MainPath>./index.html</MainPath>
