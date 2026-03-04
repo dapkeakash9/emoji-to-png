@@ -80,9 +80,3 @@ Restart your Adobe application.
 
 **[@dapkeakash9](https://github.com/dapkeakash9)**
 Independent Developer, AI Artist & Motion Graphics Designer
-
----
-
-## License
-
-**All rights reserved © 2026 [@dapkeakash9](https://github.com/dapkeakash9)**
