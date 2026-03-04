@@ -20,32 +20,22 @@ A free Adobe CEP extension that lets you instantly add **high‑quality emoji PN
 
 ## Installation
 
-### Option 1: ZXP Installer (Recommended)
+### Windows (Automated)
 
-1. Download `EmojiToPNG_v1.0.0.zxp` from the [Releases](https://github.com/dapkeakash9/emoji-to-png/releases)
-2. Install using [aescripts + aeplugins manager](https://aescripts.com/learn/aescripts-aeplugins-manager-app/) or [ZXP Installer](https://aescripts.com/learn/zxp-installer/)
-3. Restart your Adobe application
-4. Go to **Window → Extensions → Emoji to PNG**
+1. Download or clone this repository to your computer.
+2. Double-click the **`install.bat`** file.
+3. Windows will ask for Administrator permission (click Yes).
+4. The extension will be automatically installed for all users on your system.
+5. Restart Premiere Pro / After Effects and go to **Window → Extensions → Emoji to PNG**.
 
-### Option 2: Manual Install
+### macOS (Manual)
 
-Copy the extension folder to your CEP extensions directory.
+1. Download or clone this repository.
+2. Copy the entire `emoji-to-png` folder to the Mac system extensions directory:
+   `/Library/Application Support/Adobe/CEP/extensions/com.dapkeakash9.emojitopng`
 
-**Windows**
-
-    C:\Program Files (x86)\Common Files\Adobe\CEP\extensions\com.dapkeakash9.emojitopng
-
-**macOS**
-
-    /Library/Application Support/Adobe/CEP/extensions/com.dapkeakash9.emojitopng
-
-Enable unsigned extensions (for development):
-
-Open Registry Editor and set:
-
-    HKEY_CURRENT_USER\SOFTWARE\Adobe\CSXS.11\PlayerDebugMode = 1
-
-Restart your Adobe application.
+> Optionally, to enable unsigned extensions for development on Mac, run this in Terminal:
+> `defaults write com.adobe.CSXS.11 PlayerDebugMode 1`
 
 ---
 
@@ -65,14 +55,6 @@ Restart your Adobe application.
 |---|---|
 | Adobe Premiere Pro | CC 2017 (v11.0) |
 | Adobe After Effects | CC 2017 (v14.0) |
-
----
-
-## Building from Source
-
-1. Ensure `tools/ZXPSignCmd.exe` and `tools/cert.p12` are present
-2. Run `build.bat` (Windows)
-3. The signed `.zxp` will be output to `dist/`
 
 ---
 
