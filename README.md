@@ -1,6 +1,6 @@
 # Emoji to PNG
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue) ![Premiere Pro](https://img.shields.io/badge/Premiere%20Pro-CC%202017+-purple) ![After Effects](https://img.shields.io/badge/After%20Effects-CC%202017+-purple) ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-lightgrey) ![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red)
+![Version](https://img.shields.io/badge/version-1.0.0-blue) ![Premiere Pro](https://img.shields.io/badge/Premiere%20Pro-CC%202017+-purple) ![After Effects](https://img.shields.io/badge/After%20Effects-CC%202017+-purple) ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-lightgrey)
 
 ⚡ **One-click emoji importer for Premiere Pro & After Effects**
 
