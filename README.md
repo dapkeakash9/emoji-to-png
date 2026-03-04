@@ -33,11 +33,11 @@ Copy the extension folder to your CEP extensions directory.
 
 **Windows**
 
-    C:\Users\<username>\AppData\Roaming\Adobe\CEP\extensions\com.antigravity.emojitopng
+    C:\Program Files (x86)\Common Files\Adobe\CEP\extensions\com.dapkeakash9.emojitopng
 
 **macOS**
 
-    ~/Library/Application Support/Adobe/CEP/extensions/com.antigravity.emojitopng
+    /Library/Application Support/Adobe/CEP/extensions/com.dapkeakash9.emojitopng
 
 Enable unsigned extensions (for development):
 

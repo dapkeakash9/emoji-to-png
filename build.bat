@@ -7,7 +7,7 @@ REM Requirements: ZXPSignCmd.exe and cert.p12 in the tools/ folder.
 
 set TOOL=%~dp0tools\ZXPSignCmd.exe
 set CERT=%~dp0tools\cert.p12
-set PASSWORD=%CERT_PASSWORD%
+set PASSWORD=dapkeakash9
 set OUTPUT=%~dp0dist\EmojiToPNG_v1.0.0.zxp
 set TEMP_BUILD=%~dp0_build
 
