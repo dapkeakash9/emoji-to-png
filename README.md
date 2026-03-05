@@ -18,6 +18,13 @@ A free Adobe CEP extension that lets you instantly add **high‑quality emoji PN
 
 ---
 
+## Screenshots
+
+### Emoji Browser Panel
+![Emoji Browser](images/emoji-browser.png)
+
+---
+
 ## Installation
 
 ### Windows (Automated)
@@ -57,6 +64,13 @@ A free Adobe CEP extension that lets you instantly add **high‑quality emoji PN
 | Adobe After Effects | CC 2017 (v14.0) |
 
 ---
+
+## Acknowledgements
+
+This project was inspired by the open-source project  
+emoji-to-png by Connor Holyday.
+
+GitHub: https://github.com/connorholyday/emoji-to-png
 
 ## Maintainer
 
